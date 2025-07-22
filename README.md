@@ -1,6 +1,6 @@
 # Consulta SQL Visual (com SQLite no navegador)
 
-Projeto educacional que simula consultas SQL reais diretamente no navegador, usando `sql.js` (SQLite em WebAssembly).
+Projeto que simula consultas SQL reais diretamente no navegador, usando `sql.js` (SQLite em WebAssembly).
 
 ### 📦 Tecnologias:
 - HTML, CSS, JavaScript
@@ -17,7 +17,6 @@ Projeto educacional que simula consultas SQL reais diretamente no navegador, usa
 2. Abra `index.html` no navegador
 3. Escreva uma query e clique em **Executar**
 
-> Projeto client-side, ideal para praticar SQL ou demonstrar habilidades no GitHub.
 
 Autor: **Vinicius S.**  
 📧 vinicius__santos@live.com  
