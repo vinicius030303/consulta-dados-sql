@@ -1,0 +1,13 @@
+-- Selecionar todos os usuários
+SELECT * FROM usuarios;
+
+-- Ver pedidos com nome do usuário
+SELECT u.nome, p.data 
+FROM pedidos p
+JOIN usuarios u ON p.usuario_id = u.id;
+
+-- Produtos mais caros primeiro
+SELECT * FROM produtos ORDER BY preco DESC;
+
+-- Contar quantos usuários por cidade
+SELECT cidade, COUNT(*) FROM usuarios GROUP BY cidade;
